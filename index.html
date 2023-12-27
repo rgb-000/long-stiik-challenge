@@ -15,6 +15,7 @@
   <meta property="og:title" content="stiiks: simple is the best" />
   <meta property="og:url" content="https://stiiks.xyz/" />
   <meta property="og:site_name" content="stiiks: simple is the best" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:type" content="website" />
   <meta property="og:description"
     content="The website of the one and only long stiik challenge. Try to achieve the longest stiik, stiik prime, and more! Don't forget to PRINT!" />
@@ -66,6 +67,10 @@
       padding-top: 30vh;
       width: 220px;
       margin: auto;
+      @media screen and (max-width: 600px) {
+        padding-top: 60vh;
+        
+      }
     }
 
     .info {
@@ -110,10 +115,17 @@
       text-transform: uppercase;
       align-items: center;
       gap: 10px;
+      @media screen and (max-width: 600px) {
+        gap: 20px;
+      }
     }
 
     .sitter img {
       max-width: 20px;
+
+      @media screen and (max-width: 600px) {
+        max-width: 40px;
+      }
     }
 
     .watch {
@@ -139,9 +151,11 @@
     .yt {
       color: #c4302b;
     }
-.info, .print {
-  font-size: 1.6rem;
-}
+
+    .info,
+    .print {
+      font-size: 1.6rem;
+    }
 
     .info span {
       font-weight: bold;
@@ -190,7 +204,7 @@
       animation: spinRight 700ms forwards infinite;
     }
 
-    
+
     .watch pre {
       display: inline;
       text-transform: none;
@@ -210,12 +224,6 @@
       align-items: center;
       font-size: 20px;
       text-decoration: none;
-    }
-
-    @media (max-width: 700px) {
-      .sitter img {
-        max-width: 36px;
-      }
     }
 
     @keyframes rainbow {
@@ -412,10 +420,10 @@
   </div>
 
   <div class="sitter right">
-    <a href="https://discord.gg/suns-studio" target="_blank"><img  src="./assets/discord.png"><a>
-        <a href="https://x.com/Stiiks_v2" target="_blank"><img  src="./assets/x.png"><a></a>
+    <a href="https://discord.gg/suns-studio" target="_blank"><img src="./assets/discord.png"><a>
+        <a href="https://x.com/Stiiks_v2" target="_blank"><img src="./assets/x.png"><a></a>
 
-        <a href="https://www.tensor.trade/trade/twitter" target="_blank"><img  src="./assets/tensor.png"></a>
+          <a href="https://www.tensor.trade/trade/twitter" target="_blank"><img src="./assets/tensor.png"></a>
   </div>
   <script src="./index.js"></script>
 </body>
