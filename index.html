@@ -78,6 +78,7 @@
 
     .info div {
       line-height: 30px;
+
       @media screen and (hover: none) {
         line-height: 40px;
 
@@ -100,6 +101,7 @@
       position: absolute;
       font-size: 2rem;
       font-weight: bold;
+
       @media screen and (hover: none) {
         font-size: 3rem;
 
@@ -114,23 +116,22 @@
 
     .sitter {
       position: fixed;
-      display: flex;
+      display: inline;
       bottom: 15px;
       font-family: monospace;
       font-weight: bold;
       text-transform: uppercase;
       align-items: center;
-      gap: 10px;
-      @media screen and (hover: none) {
-        gap: 30px;
-      }
     }
 
     .sitter img {
-      max-width: 20px;
+      max-height: 26px;
+      margin-right: 20px;
 
       @media screen and (hover: none) {
-        max-width: 50px;
+        max-height: 52px;
+        margin-right: 30px;
+
       }
     }
 
@@ -148,6 +149,7 @@
 
     .right {
       right: 15px;
+
       @media screen and (hover: none) {
         right: 30px;
 
@@ -165,6 +167,7 @@
     .info,
     .print {
       font-size: 1.6rem;
+
       @media screen and (hover: none) {
         font-size: 2rem;
 
@@ -434,9 +437,9 @@
   </div>
 
   <div class="sitter right">
+    <a href="https://stiiks.social/" target="_blank"><img src="./assets/social.png"></a>
     <a href="https://discord.gg/suns-studio" target="_blank"><img src="./assets/discord.png"><a>
         <a href="https://x.com/Stiiks_v2" target="_blank"><img src="./assets/x.png"><a></a>
-
           <a href="https://www.tensor.trade/trade/twitter" target="_blank"><img src="./assets/tensor.png"></a>
   </div>
   <script src="./index.js"></script>
