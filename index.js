@@ -219,7 +219,7 @@ function onBodyClick(e) {
       stiikPrimeEl.innerText = "ACTIVE"
       setupSecretWows()
     } else if (count !== primeWows.length) {
-      stiikPrimeEl.innerText = "INACTIVE (" + count + '/' + primeWows.length + ")"
+      stiikPrimeEl.innerText = "inactive (" + count + '/' + primeWows.length + ")"
     }
   }
 
